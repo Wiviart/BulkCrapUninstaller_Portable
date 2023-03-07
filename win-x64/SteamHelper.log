@@ -1,0 +1,48 @@
+16:44:29 - System.IO.IOException: Failed to detect your Steam installation. Launch Steam, exit it gracefully, and try again.
+ ---> System.IO.IOException: I/O error occurred.
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   --- End of inner exception stack trace ---
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   at SteamHelper.SteamInstallation..ctor()
+   at SteamHelper.SteamInstallation.get_Instance()
+   at SteamHelper.Program.Main(String[] args)
+16:47:23 - System.IO.IOException: Failed to detect your Steam installation. Launch Steam, exit it gracefully, and try again.
+ ---> System.IO.IOException: I/O error occurred.
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   --- End of inner exception stack trace ---
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   at SteamHelper.SteamInstallation..ctor()
+   at SteamHelper.SteamInstallation.get_Instance()
+   at SteamHelper.Program.Main(String[] args)
+16:49:12 - System.IO.IOException: Failed to detect your Steam installation. Launch Steam, exit it gracefully, and try again.
+ ---> System.IO.IOException: I/O error occurred.
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   --- End of inner exception stack trace ---
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   at SteamHelper.SteamInstallation..ctor()
+   at SteamHelper.SteamInstallation.get_Instance()
+   at SteamHelper.Program.Main(String[] args)
+16:51:19 - System.IO.IOException: Failed to detect your Steam installation. Launch Steam, exit it gracefully, and try again.
+ ---> System.IO.IOException: I/O error occurred.
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   --- End of inner exception stack trace ---
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   at SteamHelper.SteamInstallation..ctor()
+   at SteamHelper.SteamInstallation.get_Instance()
+   at SteamHelper.Program.Main(String[] args)
+01:45:43 - System.IO.IOException: Failed to detect your Steam installation. Launch Steam, exit it gracefully, and try again.
+ ---> System.IO.IOException: I/O error occurred.
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   --- End of inner exception stack trace ---
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   at SteamHelper.SteamInstallation..ctor()
+   at SteamHelper.SteamInstallation.get_Instance()
+   at SteamHelper.Program.Main(String[] args)
+01:48:30 - System.IO.IOException: Failed to detect your Steam installation. Launch Steam, exit it gracefully, and try again.
+ ---> System.IO.IOException: I/O error occurred.
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   --- End of inner exception stack trace ---
+   at SteamHelper.SteamInstallation.FindSteamInstallationLocation()
+   at SteamHelper.SteamInstallation..ctor()
+   at SteamHelper.SteamInstallation.get_Instance()
+   at SteamHelper.Program.Main(String[] args)

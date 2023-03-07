@@ -1,0 +1,353 @@
+﻿--------------------------------------------------
+16:38:40 - Application startup
+16:38:41 - System.IO.FileNotFoundException: Could not find file 'G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\RatingCashe_Avg.json'.
+File name: 'G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\RatingCashe_Avg.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at BulkCrapUninstaller.Functions.Ratings.UninstallerRatingManager.LoadFromFile(String path, Dictionary`2 target)
+16:38:41 - System.IO.FileNotFoundException: Could not find file 'G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\RatingCashe_User.json'.
+File name: 'G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\RatingCashe_User.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at BulkCrapUninstaller.Functions.Ratings.UninstallerRatingManager.LoadFromFile(String path, Dictionary`2 target)
+16:38:41 - System.IO.FileNotFoundException: Could not find file 'G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\RatingCashe_Pending.json'.
+File name: 'G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\RatingCashe_Pending.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at BulkCrapUninstaller.Functions.Ratings.UninstallerRatingManager.LoadFromFile(String path, Dictionary`2 target)
+16:38:41 - [Performance] Factory ChocolateyFactory took 4ms to finish
+16:38:42 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 109ms
+16:38:42 - [Performance] Factory OculusFactory took 313ms to finish
+16:38:42 - [Performance] Factory RegistryFactory took 676ms to finish
+16:38:42 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe steam took 87ms
+16:38:42 - [Performance] Factory PredefinedFactory took 257ms to finish
+16:38:42 - [Performance] Factory ScoopFactory took 1ms to finish
+16:38:42 - FastSizeGenerator: Everything search engine is not available - es.exe failed to connect to Everything
+16:38:42 - Cache hits: 0/353
+16:38:42 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 121ms
+16:38:42 - [Performance] Factory ScriptFactory took 417ms to finish
+16:38:42 - [Performance] Factory DirectoryFactory took 123ms to finish
+16:38:43 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 120ms
+16:38:43 - [Performance] Factory SteamFactory took 330ms to finish
+16:38:44 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 1186ms
+16:38:44 - [Performance] Factory StoreAppFactory took 1493ms to finish
+16:38:45 - Cache hits: 0/475
+16:39:30 - The current version is the latest
+16:42:06 - [Performance] Factory ChocolateyFactory took 0ms to finish
+16:42:06 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 109ms
+16:42:06 - [Performance] Factory OculusFactory took 273ms to finish
+16:42:06 - [Performance] Factory PredefinedFactory took 0ms to finish
+16:42:06 - [Performance] Factory ScoopFactory took 0ms to finish
+16:42:07 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 121ms
+16:42:07 - [Performance] Factory ScriptFactory took 304ms to finish
+16:42:07 - [Performance] Factory RegistryFactory took 643ms to finish
+16:42:07 - Cache hits: 352/353
+16:42:07 - [Performance] Factory DirectoryFactory took 90ms to finish
+16:42:07 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 124ms
+16:42:07 - [Performance] Factory SteamFactory took 318ms to finish
+16:42:08 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 1223ms
+16:42:08 - [Performance] Factory StoreAppFactory took 1523ms to finish
+16:42:09 - Cache hits: 472/473
+16:43:46 - Attempt failed, skipping. Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Runtime.InteropServices.COMException (0x80270222): Cannot access Homegroup. Homegroup may not be set up or may have encountered an error. (0x80270222)
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at WinRT.ExceptionHelpers.ThrowExceptionForHR(Int32 hr)
+   at ABI.Windows.Storage.IKnownFoldersStaticsMethods.get_HomeGroup(IObjectReference _obj)
+   at Windows.Storage.KnownFolders.get_HomeGroup()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at UninstallTools.Junk.JunkManager.<>c.<GetProhibitedLocations>b__4_1(PropertyInfo p)
+   at Klocman.Extensions.EnumerableExtensions.Attempt[TIn,TOut](IEnumerable`1 baseEnumerable, Func`2 action)+MoveNext()
+16:44:28 - [Performance] Factory ChocolateyFactory took 0ms to finish
+16:44:28 - [Performance] Factory RegistryFactory took 602ms to finish
+16:44:28 - Cache hits: 351/352
+16:44:28 - [Performance] Factory DirectoryFactory took 53ms to finish
+16:44:28 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 100ms
+16:44:28 - [Performance] Factory OculusFactory took 268ms to finish
+16:44:28 - [Performance] Factory PredefinedFactory took 0ms to finish
+16:44:28 - [Performance] Factory ScoopFactory took 0ms to finish
+16:44:29 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 111ms
+16:44:29 - [Performance] Factory ScriptFactory took 269ms to finish
+16:44:29 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 122ms
+16:44:29 - [Performance] Factory SteamFactory took 298ms to finish
+16:44:30 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 1031ms
+16:44:30 - [Performance] Factory StoreAppFactory took 1322ms to finish
+16:44:31 - Cache hits: 467/470
+16:46:52 - Attempt failed, skipping. Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Runtime.InteropServices.COMException (0x80270222): Cannot access Homegroup. Homegroup may not be set up or may have encountered an error. (0x80270222)
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at WinRT.ExceptionHelpers.ThrowExceptionForHR(Int32 hr)
+   at ABI.Windows.Storage.IKnownFoldersStaticsMethods.get_HomeGroup(IObjectReference _obj)
+   at Windows.Storage.KnownFolders.get_HomeGroup()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at UninstallTools.Junk.JunkManager.<>c.<GetProhibitedLocations>b__4_1(PropertyInfo p)
+   at Klocman.Extensions.EnumerableExtensions.Attempt[TIn,TOut](IEnumerable`1 baseEnumerable, Func`2 action)+MoveNext()
+16:47:22 - [Performance] Factory ChocolateyFactory took 0ms to finish
+16:47:22 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 131ms
+16:47:22 - [Performance] Factory OculusFactory took 339ms to finish
+16:47:22 - [Performance] Factory PredefinedFactory took 0ms to finish
+16:47:22 - [Performance] Factory ScoopFactory took 0ms to finish
+16:47:22 - [Performance] Factory RegistryFactory took 628ms to finish
+16:47:22 - Cache hits: 350/351
+16:47:22 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 149ms
+16:47:22 - [Performance] Factory ScriptFactory took 319ms to finish
+16:47:23 - [Performance] Factory DirectoryFactory took 81ms to finish
+16:47:23 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 128ms
+16:47:23 - [Performance] Factory SteamFactory took 315ms to finish
+16:47:24 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 1150ms
+16:47:24 - [Performance] Factory StoreAppFactory took 1522ms to finish
+16:47:25 - Cache hits: 468/468
+16:49:10 - Attempt failed, skipping. Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Runtime.InteropServices.COMException (0x80270222): Cannot access Homegroup. Homegroup may not be set up or may have encountered an error. (0x80270222)
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at ABI.Windows.Storage.IKnownFoldersStaticsMethods.get_HomeGroup(IObjectReference _obj)
+   at Windows.Storage.KnownFolders.get_HomeGroup()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at UninstallTools.Junk.JunkManager.<>c.<GetProhibitedLocations>b__4_1(PropertyInfo p)
+   at Klocman.Extensions.EnumerableExtensions.Attempt[TIn,TOut](IEnumerable`1 baseEnumerable, Func`2 action)+MoveNext()
+16:49:11 - [Performance] Factory ChocolateyFactory took 0ms to finish
+16:49:12 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 111ms
+16:49:12 - [Performance] Factory OculusFactory took 279ms to finish
+16:49:12 - [Performance] Factory PredefinedFactory took 0ms to finish
+16:49:12 - [Performance] Factory ScoopFactory took 0ms to finish
+16:49:12 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 120ms
+16:49:12 - [Performance] Factory ScriptFactory took 290ms to finish
+16:49:12 - [Performance] Factory RegistryFactory took 585ms to finish
+16:49:12 - Cache hits: 350/351
+16:49:12 - [Performance] Factory DirectoryFactory took 49ms to finish
+16:49:12 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 122ms
+16:49:12 - [Performance] Factory SteamFactory took 291ms to finish
+16:49:14 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 992ms
+16:49:14 - [Performance] Factory StoreAppFactory took 1323ms to finish
+16:49:14 - Cache hits: 462/462
+16:51:14 - Attempt failed, skipping. Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Runtime.InteropServices.COMException (0x80270222): Cannot access Homegroup. Homegroup may not be set up or may have encountered an error. (0x80270222)
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at ABI.Windows.Storage.IKnownFoldersStaticsMethods.get_HomeGroup(IObjectReference _obj)
+   at Windows.Storage.KnownFolders.get_HomeGroup()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at UninstallTools.Junk.JunkManager.<>c.<GetProhibitedLocations>b__4_1(PropertyInfo p)
+   at Klocman.Extensions.EnumerableExtensions.Attempt[TIn,TOut](IEnumerable`1 baseEnumerable, Func`2 action)+MoveNext()
+16:51:16 - [Performance] Factory ChocolateyFactory took 0ms to finish
+16:51:16 - [Performance] Factory RegistryFactory took 598ms to finish
+16:51:16 - Cache hits: 350/351
+16:51:17 - [Performance] Factory DirectoryFactory took 53ms to finish
+16:51:17 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 95ms
+16:51:17 - [Performance] Factory OculusFactory took 928ms to finish
+16:51:17 - [Performance] Factory PredefinedFactory took 0ms to finish
+16:51:17 - [Performance] Factory ScoopFactory took 0ms to finish
+16:51:18 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 115ms
+16:51:18 - [Performance] Factory ScriptFactory took 970ms to finish
+16:51:19 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 117ms
+16:51:19 - [Performance] Factory SteamFactory took 1013ms to finish
+16:51:22 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 989ms
+16:51:22 - [Performance] Factory StoreAppFactory took 3037ms to finish
+16:51:23 - Cache hits: 460/460
+--------------------------------------------------
+01:45:41 - Application startup
+01:45:42 - [Performance] Factory ChocolateyFactory took 4ms to finish
+01:45:43 - The current version is the latest
+01:45:43 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 157ms
+01:45:43 - [Performance] Factory OculusFactory took 344ms to finish
+01:45:43 - [Performance] Factory RegistryFactory took 644ms to finish
+01:45:43 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe steam took 163ms
+01:45:43 - [Performance] Factory PredefinedFactory took 345ms to finish
+01:45:43 - [Performance] Factory ScoopFactory took 2ms to finish
+01:45:43 - FastSizeGenerator: Everything search engine is not available - es.exe failed to connect to Everything
+01:45:43 - Cache hits: 348/351
+01:45:44 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 119ms
+01:45:44 - [Performance] Factory ScriptFactory took 353ms to finish
+01:45:44 - [Performance] Factory SteamFactory took 1ms to finish
+01:45:44 - [Performance] Factory DirectoryFactory took 117ms to finish
+01:45:45 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 1142ms
+01:45:45 - [Performance] Factory StoreAppFactory took 1446ms to finish
+01:45:46 - Cache hits: 458/460
+01:48:06 - Attempt failed, skipping. Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Runtime.InteropServices.COMException (0x80270222): Cannot access Homegroup. Homegroup may not be set up or may have encountered an error. (0x80270222)
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at WinRT.ExceptionHelpers.ThrowExceptionForHR(Int32 hr)
+   at ABI.Windows.Storage.IKnownFoldersStaticsMethods.get_HomeGroup(IObjectReference _obj)
+   at Windows.Storage.KnownFolders.get_HomeGroup()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at UninstallTools.Junk.JunkManager.<>c.<GetProhibitedLocations>b__4_1(PropertyInfo p)
+   at Klocman.Extensions.EnumerableExtensions.Attempt[TIn,TOut](IEnumerable`1 baseEnumerable, Func`2 action)+MoveNext()
+01:48:30 - [Performance] Factory ChocolateyFactory took 0ms to finish
+01:48:30 - [Performance] Factory RegistryFactory took 594ms to finish
+01:48:30 - Cache hits: 350/351
+01:48:30 - [Performance] Factory DirectoryFactory took 52ms to finish
+01:48:30 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 87ms
+01:48:30 - [Performance] Factory OculusFactory took 274ms to finish
+01:48:31 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe steam took 105ms
+01:48:31 - [Performance] Factory PredefinedFactory took 282ms to finish
+01:48:31 - [Performance] Factory ScoopFactory took 0ms to finish
+01:48:31 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 105ms
+01:48:31 - [Performance] Factory ScriptFactory took 277ms to finish
+01:48:31 - [Performance] Factory SteamFactory took 0ms to finish
+01:48:32 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 942ms
+01:48:32 - [Performance] Factory StoreAppFactory took 1229ms to finish
+01:48:33 - Cache hits: 459/459
+--------------------------------------------------
+11:51:37 - Application startup
+11:51:39 - [Performance] Factory ChocolateyFactory took 4ms to finish
+11:51:39 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 138ms
+11:51:39 - [Performance] Factory OculusFactory took 365ms to finish
+11:51:39 - [Performance] Factory RegistryFactory took 874ms to finish
+11:51:39 - The current version is the latest
+11:51:39 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe steam took 140ms
+11:51:39 - [Performance] Factory PredefinedFactory took 364ms to finish
+11:51:39 - [Performance] Factory ScoopFactory took 2ms to finish
+11:51:40 - FastSizeGenerator: Everything search engine is not available - es.exe failed to connect to Everything
+11:51:40 - Cache hits: 349/352
+11:51:40 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 130ms
+11:51:40 - [Performance] Factory ScriptFactory took 574ms to finish
+11:51:40 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 124ms
+11:51:40 - [Performance] Factory SteamFactory took 317ms to finish
+11:51:41 - [Performance] Factory DirectoryFactory took 793ms to finish
+11:51:42 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 1390ms
+11:51:42 - [Performance] Factory StoreAppFactory took 1740ms to finish
+11:51:43 - Cache hits: 453/456
+11:52:56 - Attempt failed, skipping. Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Runtime.InteropServices.COMException (0x80270222): Cannot access Homegroup. Homegroup may not be set up or may have encountered an error. (0x80270222)
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at WinRT.ExceptionHelpers.ThrowExceptionForHR(Int32 hr)
+   at ABI.Windows.Storage.IKnownFoldersStaticsMethods.get_HomeGroup(IObjectReference _obj)
+   at Windows.Storage.KnownFolders.get_HomeGroup()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at UninstallTools.Junk.JunkManager.<>c.<GetProhibitedLocations>b__4_1(PropertyInfo p)
+   at Klocman.Extensions.EnumerableExtensions.Attempt[TIn,TOut](IEnumerable`1 baseEnumerable, Func`2 action)+MoveNext()
+11:53:16 - [Performance] Factory ChocolateyFactory took 0ms to finish
+11:53:17 - [Performance] Factory RegistryFactory took 621ms to finish
+11:53:17 - Cache hits: 350/351
+11:53:17 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 98ms
+11:53:17 - [Performance] Factory OculusFactory took 268ms to finish
+11:53:17 - [Performance] Factory PredefinedFactory took 0ms to finish
+11:53:17 - [Performance] Factory ScoopFactory took 0ms to finish
+11:53:17 - [Performance] Factory DirectoryFactory took 52ms to finish
+11:53:17 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 106ms
+11:53:17 - [Performance] Factory ScriptFactory took 305ms to finish
+11:53:17 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 116ms
+11:53:17 - [Performance] Factory SteamFactory took 345ms to finish
+11:53:18 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 961ms
+11:53:19 - [Performance] Factory StoreAppFactory took 1287ms to finish
+11:53:19 - Cache hits: 455/455
+11:54:23 - Attempt failed, skipping. Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Runtime.InteropServices.COMException (0x80270222): Cannot access Homegroup. Homegroup may not be set up or may have encountered an error. (0x80270222)
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at WinRT.ExceptionHelpers.ThrowExceptionForHR(Int32 hr)
+   at ABI.Windows.Storage.IKnownFoldersStaticsMethods.get_HomeGroup(IObjectReference _obj)
+   at Windows.Storage.KnownFolders.get_HomeGroup()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at UninstallTools.Junk.JunkManager.<>c.<GetProhibitedLocations>b__4_1(PropertyInfo p)
+   at Klocman.Extensions.EnumerableExtensions.Attempt[TIn,TOut](IEnumerable`1 baseEnumerable, Func`2 action)+MoveNext()
+11:54:28 - [Performance] Factory ChocolateyFactory took 0ms to finish
+11:54:28 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 93ms
+11:54:28 - [Performance] Factory OculusFactory took 283ms to finish
+11:54:28 - [Performance] Factory PredefinedFactory took 0ms to finish
+11:54:28 - [Performance] Factory ScoopFactory took 0ms to finish
+11:54:28 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 114ms
+11:54:28 - [Performance] Factory ScriptFactory took 300ms to finish
+11:54:28 - [Performance] Factory RegistryFactory took 606ms to finish
+11:54:28 - Cache hits: 350/351
+11:54:28 - [Performance] Factory DirectoryFactory took 48ms to finish
+11:54:29 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 117ms
+11:54:29 - [Performance] Factory SteamFactory took 275ms to finish
+11:54:30 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 957ms
+11:54:30 - [Performance] Factory StoreAppFactory took 1253ms to finish
+11:54:31 - Cache hits: 453/453
+--------------------------------------------------
+02:54:01 - Application startup
+02:54:04 - [Performance] Factory ChocolateyFactory took 4ms to finish
+02:54:04 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 132ms
+02:54:04 - [Performance] Factory OculusFactory took 306ms to finish
+02:54:04 - [Performance] Factory RegistryFactory took 693ms to finish
+02:54:04 - A new version is available: 5.5
+02:54:04 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe steam took 153ms
+02:54:04 - [Performance] Factory PredefinedFactory took 313ms to finish
+02:54:04 - [Performance] Factory ScoopFactory took 1ms to finish
+02:54:04 - FastSizeGenerator: Everything search engine is not available - es.exe failed to connect to Everything
+02:54:04 - Cache hits: 350/356
+02:54:04 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 133ms
+02:54:04 - [Performance] Factory ScriptFactory took 318ms to finish
+02:54:05 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 125ms
+02:54:05 - [Performance] Factory SteamFactory took 275ms to finish
+02:54:06 - [Performance] Factory DirectoryFactory took 874ms to finish
+02:54:06 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 1396ms
+02:54:06 - [Performance] Factory StoreAppFactory took 1746ms to finish
+02:54:07 - Cache hits: 452/458
+--------------------------------------------------
+02:59:07 - Application startup
+02:59:08 - The current version is the latest
+02:59:08 - [Performance] Factory ChocolateyFactory took 4ms to finish
+02:59:08 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\OculusHelper.exe /query took 100ms
+02:59:08 - [Performance] Factory OculusFactory took 243ms to finish
+02:59:08 - [Performance] Factory PredefinedFactory took 0ms to finish
+02:59:08 - [Performance] Factory ScoopFactory took 2ms to finish
+02:59:09 - [Performance] Factory RegistryFactory took 635ms to finish
+02:59:09 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\ScriptHelper.exe list took 125ms
+02:59:09 - [Performance] Factory ScriptFactory took 269ms to finish
+02:59:09 - FastSizeGenerator: Everything search engine is not available - es.exe failed to connect to Everything
+02:59:09 - Cache hits: 355/356
+02:59:09 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe steam took 101ms
+02:59:09 - [Performance] Factory DirectoryFactory took 119ms to finish
+02:59:09 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\SteamHelper.exe l /i took 130ms
+02:59:09 - [Performance] Factory SteamFactory took 646ms to finish
+02:59:10 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller\win-x64\StoreAppHelper.exe /query took 987ms
+02:59:11 - [Performance] Factory StoreAppFactory took 1272ms to finish
+02:59:11 - Cache hits: 458/458
+--------------------------------------------------
+03:06:03 - Application startup
+03:06:05 - The current version is the latest
+03:06:05 - [Performance] Factory ChocolateyFactory took 5ms to finish
+03:06:05 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller_Portable\win-x64\OculusHelper.exe /query took 274ms
+03:06:05 - [Performance] Factory OculusFactory took 438ms to finish
+03:06:05 - [Performance] Factory PredefinedFactory took 0ms to finish
+03:06:05 - [Performance] Factory ScoopFactory took 2ms to finish
+03:06:06 - [Performance] Factory RegistryFactory took 715ms to finish
+03:06:07 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller_Portable\win-x64\ScriptHelper.exe list took 952ms
+03:06:07 - [Performance] Factory ScriptFactory took 1095ms to finish
+03:06:07 - FastSizeGenerator: Everything search engine is not available - es.exe failed to connect to Everything
+03:06:07 - Cache hits: 354/355
+03:06:07 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller_Portable\win-x64\SteamHelper.exe steam took 277ms
+03:06:08 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller_Portable\win-x64\SteamHelper.exe l /i took 143ms
+03:06:08 - [Performance] Factory SteamFactory took 1267ms to finish
+03:06:08 - [Performance] Factory DirectoryFactory took 123ms to finish
+03:06:11 - [Performance] Running command G:\My Drive\PORTABLE_SOFT\BulkCrapUninstaller_Portable\win-x64\StoreAppHelper.exe /query took 2708ms
+03:06:11 - [Performance] Factory StoreAppFactory took 2995ms to finish
+03:06:12 - Cache hits: 457/458
