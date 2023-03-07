@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <FilterShowTweaks>True</FilterShowTweaks>
+  <UninstallerListSortOrder>Ascending</UninstallerListSortOrder>
+  <ScanWinFeatures>False</ScanWinFeatures>
+  <UninstallPreventShutdown>True</UninstallPreventShutdown>
+  <MiscRatingCacheDate>03/01/2023 23:38:43</MiscRatingCacheDate>
+  <ShowTreeMap>True</ShowTreeMap>
+  <AdvancedTestInvalid>True</AdvancedTestInvalid>
+  <QuietAutomatizationKillStuck>True</QuietAutomatizationKillStuck>
+  <ScanStoreApps>True</ScanStoreApps>
+  <QuietRetryFailedOnce>True</QuietRetryFailedOnce>
+  <MessagesRestorePoints>Ask</MessagesRestorePoints>
+  <ToolbarsShowToolbar>True</ToolbarsShowToolbar>
+  <FoldersAutoDetect>True</FoldersAutoDetect>
+  <MiscFeedbackNagShown>False</MiscFeedbackNagShown>
+  <DESKTOP-OPDMIEK>
+    <WindowState>Normal</WindowState>
+    <WindowPosition>96, 96</WindowPosition>
+    <_CacheUpdateRate>10.00:00:00</_CacheUpdateRate>
+    <BackupLeftoversDirectory>
+    </BackupLeftoversDirectory>
+    <WindowSize>1196, 879</WindowSize>
+  </DESKTOP-OPDMIEK>
+  <ExternalPostCommands>../BleachBit/bleachbit_console.exe --clean system.tmp system.logs system.memory_dump system.muicache system.prefetch system.recycle_bin</ExternalPostCommands>
+  <FilterShowUpdates>False</FilterShowUpdates>
+  <UninstallConcurrency>True</UninstallConcurrency>
+  <WindowDpiAware>True</WindowDpiAware>
+  <Language>
+  </Language>
+  <AdvancedSimulate>False</AdvancedSimulate>
+  <FoldersCustomProgramDirs>
+  </FoldersCustomProgramDirs>
+  <QuietAutoKillStuck>True</QuietAutoKillStuck>
+  <FilterHideMicrosoft>False</FilterHideMicrosoft>
+  <AdvancedDisableProtection>False</AdvancedDisableProtection>
+  <CreateRestorePoint>True</CreateRestorePoint>
+  <FilterShowStoreApps>True</FilterShowStoreApps>
+  <MiscSendStatistics>True</MiscSendStatistics>
+  <UninstallerListViewState>AAEAAAD/////AQAAAAAAAAAMAgAAAEZPYmplY3RMaXN0VmlldywgVmVyc2lvbj0yLjEwLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsDAMAAABXU3lzdGVtLldpbmRvd3MuRm9ybXMsIFZlcnNpb249Ni4wLjIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAA2QnJpZ2h0SWRlYXNTb2Z0d2FyZS5PYmplY3RMaXN0VmlldytPYmplY3RMaXN0Vmlld1N0YXRlCQAAAA1WZXJzaW9uTnVtYmVyD051bWJlck9mQ29sdW1ucwtDdXJyZW50VmlldwpTb3J0Q29sdW1uD0lzU2hvd2luZ0dyb3Vwcw1MYXN0U29ydE9yZGVyD0NvbHVtbklzVmlzaWJsZRVDb2x1bW5EaXNwbGF5SW5kaWNpZXMMQ29sdW1uV2lkdGhzAAAEAAAEAwMDCAgZU3lzdGVtLldpbmRvd3MuRm9ybXMuVmlldwMAAAAIAR5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Tb3J0T3JkZXIDAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QcU3lzdGVtLkNvbGxlY3Rpb25zLkFycmF5TGlzdBxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AgAAAAEAAAASAAAABfz///8ZU3lzdGVtLldpbmRvd3MuRm9ybXMuVmlldwEAAAAHdmFsdWVfXwAIAwAAAAEAAAAAAAAAAQX7////HlN5c3RlbS5XaW5kb3dzLkZvcm1zLlNvcnRPcmRlcgEAAAAHdmFsdWVfXwAIAwAAAAEAAAAJBgAAAAkHAAAACQgAAAAEBgAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkJAAAAEgAAABIAAAABBwAAAAYAAAAJCgAAABIAAAASAAAAAQgAAAAGAAAACQsAAAASAAAAEgAAABAJAAAAIAAAAAgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQgBAQ0OEAoAAAAgAAAACAgAAAAACAgBAAAACAgCAAAACAgDAAAACAgEAAAACAgFAAAACAgGAAAACAgHAAAACAgIAAAACAgJAAAACAgKAAAACAgLAAAACAgMAAAACAgNAAAACAgOAAAACAgPAAAACAgQAAAACAgRAAAADQ4QCwAAACAAAAAICPkAAAAICKAAAAAICFAAAAAICDwAAAAICEYAAAAICEEAAAAICDQAAAAICCgAAAAICKAAAAAICKAAAAAICEoAAAAICEcAAAAICDwAAAAICCgAAAAICCgAAAAICKAAAAAICAQBAAAICKAAAAANDgs=</UninstallerListViewState>
+  <MiscFeedbackNagNeverShow>True</MiscFeedbackNagNeverShow>
+  <QuietUseDaemon>True</QuietUseDaemon>
+  <MiscUserId>11768392512729753638</MiscUserId>
+  <UninstallConcurrentOneLoud>True</UninstallConcurrentOneLoud>
+  <AdvancedIntelligentUninstallerSorting>True</AdvancedIntelligentUninstallerSorting>
+  <MiscVersion>5.4.0.0</MiscVersion>
+  <CacheAppInfo>True</CacheAppInfo>
+  <ScanDrives>True</ScanDrives>
+  <Debug>False</Debug>
+  <FoldersScanRemovable>False</FoldersScanRemovable>
+  <FilterShowSystemComponents>True</FilterShowSystemComponents>
+  <MiscCheckForUpdates>True</MiscCheckForUpdates>
+  <ScanScoop>True</ScanScoop>
+  <ScanPreDefined>True</ScanPreDefined>
+  <MiscAutoLoadDefaultList>True</MiscAutoLoadDefaultList>
+  <AdvancedDisplayOrphans>True</AdvancedDisplayOrphans>
+  <AdvancedHighlightSpecial>True</AdvancedHighlightSpecial>
+  <UninstallerListSortColumn>0</UninstallerListSortColumn>
+  <ToolbarsShowStatusbar>True</ToolbarsShowStatusbar>
+  <MessagesShowAllBadJunk>True</MessagesShowAllBadJunk>
+  <MessagesAskRemoveLoudItems>True</MessagesAskRemoveLoudItems>
+  <FilterShowProtected>False</FilterShowProtected>
+  <ToolbarsShowSettings>True</ToolbarsShowSettings>
+  <UninstallerListShowLegend>True</UninstallerListShowLegend>
+  <ExternalPreCommands>
+  </ExternalPreCommands>
+  <ScanWinUpdates>False</ScanWinUpdates>
+  <ScanOculus>True</ScanOculus>
+  <QuietAutomatization>True</QuietAutomatization>
+  <MiscColorblind>False</MiscColorblind>
+  <WindowUseSystemTheme>False</WindowUseSystemTheme>
+  <UninstallConcurrentMaxCount>2</UninstallConcurrentMaxCount>
+  <BackupLeftovers>Ask</BackupLeftovers>
+  <FilterShowWinFeatures>False</FilterShowWinFeatures>
+  <CacheCertificates>True</CacheCertificates>
+  <AdvancedTestCertificates>True</AdvancedTestCertificates>
+  <ScanRegistry>True</ScanRegistry>
+  <MiscUserRatings>True</MiscUserRatings>
+  <UninstallConcurrentDisableManualCollisionProtection>False</UninstallConcurrentDisableManualCollisionProtection>
+  <MessagesRemoveJunk>Ask</MessagesRemoveJunk>
+  <ExternalEnable>False</ExternalEnable>
+  <MiscFirstRun>False</MiscFirstRun>
+  <ScanSteam>True</ScanSteam>
+  <UninstallerListUseCheckboxes>False</UninstallerListUseCheckboxes>
+  <ScanChocolatey>True</ScanChocolatey>
+  <UninstallerListUseGroups>True</UninstallerListUseGroups>
+</Settings>
